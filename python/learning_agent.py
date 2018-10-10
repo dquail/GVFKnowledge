@@ -15,126 +15,98 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 """Basic random agent for DeepMind Lab."""
 
+#Basic imports
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
+
 
 import argparse
 import random
 import numpy as np
 import six
+import time
 
+#Project imports
+from GVF import *
+from BehaviorPolicy import *
+
+#Deepmind import
 import deepmind_lab
 
+class LearningForeground:
+  def __init__(self, length, width, height, fps, level, record, demo, video):
 
-def _action(*entries):
-  return np.array(entries, dtype=np.intc)
+    #Set up our environment
+    config = {
+      'fps': str(fps),
+      'width': str(width),
+      'height': str(height)
+    }
+    if record:
+      config['record'] = record
+    if demo:
+      config['demo'] = demo
+    if video:
+      config['video'] = video
+    self.env = deepmind_lab.Lab(level, ['RGBD'], config=config)
 
+    #Set our behavior policy
+    self.behaviorPolicy = BehaviorPolicy()
 
-class DiscretizedRandomAgent(object):
-  """Simple agent for DeepMind Lab."""
+    self.featureRepresentationLength = 100
+    alpha = 0.1
+    numberOfActiveFeatures = 5
+    #Set up our GVF for pavlovian control
+    gvf = GVF(self.featureRepresentationLength, alpha / numberOfActiveFeatures, isOffPolicy = False, name = "Hit wall GVF")
+    gvf.gamma = 0
+    gvf.policy = self.behaviorPolicy
+    self.wallGVF = gvf
 
-  ACTIONS = {
-      'look_left': _action(-20, 0, 0, 0, 0, 0, 0),
-      'look_right': _action(20, 0, 0, 0, 0, 0, 0),
-      'look_up': _action(0, 10, 0, 0, 0, 0, 0),
-      'look_down': _action(0, -10, 0, 0, 0, 0, 0),
-      'strafe_left': _action(0, 0, -1, 0, 0, 0, 0),
-      'strafe_right': _action(0, 0, 1, 0, 0, 0, 0),
-      'forward': _action(0, 0, 0, 1, 0, 0, 0),
-      'backward': _action(0, 0, 0, -1, 0, 0, 0),
-      'fire': _action(0, 0, 0, 0, 1, 0, 0),
-      'jump': _action(0, 0, 0, 0, 0, 1, 0),
-      'crouch': _action(0, 0, 0, 0, 0, 0, 1)
-  }
+    #Set learning parameters
+    self.previousObs = False
+    self.currentObs = False
 
-  ACTION_LIST = list(six.viewvalues(ACTIONS))
+  def createFeatureRepresentation(self, observation, action):
+    if observation == None:
+      return None
+    else:
+      #TODO: tilecode the observation RGB bits.
+      return np.zeros(self.featureRepresentationLength)
 
-  def step(self, unused_reward, unused_image):
-    """Gets an image state and a reward, returns an action."""
-    return random.choice(DiscretizedRandomAgent.ACTION_LIST)
+  def updateGVFs(self):
+    print("TBD: GVF learning")
+    gvf = self.wallGVF
 
+  def start(self, numberOfSteps = 10000, numberOfRuns = 1):
+    for run in range(numberOfRuns):
+      print("RUN NUMBER: " + str(run + 1) + " ......")
+      self.env.reset()
+      self.lastAction = 0
+      self.currentAction = 0
+      self.previousObs = False
 
-class SpringAgent(object):
-  """A random agent using spring-like forces for its action evolution."""
+      for step in range(numberOfSteps):
+        #TODO - make this a pavlovian prediction
+        willHitWall = False
 
-  def __init__(self, action_spec):
-    self.action_spec = action_spec
-    print('Starting random spring agent. Action spec:', action_spec)
+        #Pavlovian control
+        action = None
+        if willHitWall == True:
+          action = self.behaviorPolicy.turnLeftPolicy(self.previousObs)
+        else:
+          action = self.behaviorPolicy.policy(self.previousObs)
+        self.currentAction = action
+        if self.currentObs:
+          self.previousObs = self.currentObs
 
-    self.omega = np.array([
-        0.1,  # look left-right
-        0.1,  # look up-down
-        0.1,  # strafe left-right
-        0.1,  # forward-backward
-        0.0,  # fire
-        0.0,  # jumping
-        0.0  # crouching
-    ])
+        print("Action:")
+        print(action)
+        reward = self.env.step(action, num_steps=1)
+        self.currentObs = self.env.observations()
+        #Learn
+        self.updateGVFs()
 
-    self.velocity_scaling = np.array([2.5, 2.5, 0.01, 0.01, 1, 1, 1])
-
-    self.indices = {a['name']: i for i, a in enumerate(self.action_spec)}
-    self.mins = np.array([a['min'] for a in self.action_spec])
-    self.maxs = np.array([a['max'] for a in self.action_spec])
-    self.reset()
-
-    self.rewards = 0
-
-  def critically_damped_derivative(self, t, omega, displacement, velocity):
-    r"""Critical damping for movement.
-
-    I.e., x(t) = (A + Bt) \exp(-\omega t) with A = x(0), B = x'(0) + \omega x(0)
-
-    See
-      https://en.wikipedia.org/wiki/Damping#Critical_damping_.28.CE.B6_.3D_1.29
-    for details.
-
-    Args:
-      t: A float representing time.
-      omega: The undamped natural frequency.
-      displacement: The initial displacement at, x(0) in the above equation.
-      velocity: The initial velocity, x'(0) in the above equation
-
-    Returns:
-       The velocity x'(t).
-    """
-    a = displacement
-    b = velocity + omega * displacement
-    return (b - omega * t * (a + t * b)) * np.exp(-omega * t)
-
-  def step(self, reward, unused_frame):
-    """Gets an image state and a reward, returns an action."""
-    self.rewards += reward
-
-    action = (self.maxs - self.mins) * np.random.random_sample(
-        size=[len(self.action_spec)]) + self.mins
-
-    # Compute the 'velocity' 1 time unit after a critical damped force
-    # dragged us towards the random `action`, given our current velocity.
-    self.velocity = self.critically_damped_derivative(1, self.omega, action,
-                                                      self.velocity)
-
-    # Since walk and strafe are binary, we need some additional memory to
-    # smoothen the movement. Adding half of action from the last step works.
-    self.action = self.velocity / self.velocity_scaling + 0.5 * self.action
-
-    # Fire with p = 0.01 at each step
-    self.action[self.indices['FIRE']] = int(np.random.random() > 0.99)
-
-    # Jump/crouch with p = 0.005 at each step
-    self.action[self.indices['JUMP']] = int(np.random.random() > 0.995)
-    self.action[self.indices['CROUCH']] = int(np.random.random() > 0.995)
-
-    # Clip to the valid range and convert to the right dtype
-    return self.clip_action(self.action)
-
-  def clip_action(self, action):
-    return np.clip(action, self.mins, self.maxs).astype(np.intc)
-
-  def reset(self):
-    self.velocity = np.zeros([len(self.action_spec)])
-    self.action = np.zeros([len(self.action_spec)])
 
 
 def run(length, width, height, fps, level, record, demo, video):
@@ -150,24 +122,36 @@ def run(length, width, height, fps, level, record, demo, video):
     config['demo'] = demo
   if video:
     config['video'] = video
-  env = deepmind_lab.Lab(level, ['RGB_INTERLEAVED'], config=config)
+  #env = deepmind_lab.Lab(level, ['RGB_INTERLEAVED'], config=config)
+  env = deepmind_lab.Lab(level, ['RGBD'], config=config)
+
 
   env.reset()
 
   # Starts the random spring agent. As a simpler alternative, we could also
   # use DiscretizedRandomAgent().
-  agent = SpringAgent(env.action_spec())
+
+  #Spring is more based on smooth physics
+  #agent = SpringAgent(env.action_spec())
+
+  #Discretized is more jarring but simpler.
+  agent = DiscretizedRandomAgent()
 
   reward = 0
 
+  i = 0
   for _ in six.moves.range(length):
     if not env.is_running():
       print('Environment stopped early')
       env.reset()
       agent.reset()
     obs = env.observations()
-    action = agent.step(reward, obs['RGB_INTERLEAVED'])
+    #action = agent.step(reward, obs['RGB_INTERLEAVED'])
+    action = agent.step(reward, obs['RGBD'])
     reward = env.step(action, num_steps=1)
+    i+=1
+    time.sleep(1.0)
+    print(i)
 
   print('Finished after %i steps. Total reward received is %f'
         % (length, agent.rewards))
@@ -198,5 +182,12 @@ if __name__ == '__main__':
   args = parser.parse_args()
   if args.runfiles_path:
     deepmind_lab.set_runfiles_path(args.runfiles_path)
+
+  foreground = LearningForeground(args.length, args.width, args.height, args.fps, args.level_script,
+      args.record, args.demo, args.video)
+  foreground.start(numberOfSteps = args.length, numberOfRuns = 1)
+
+  """
   run(args.length, args.width, args.height, args.fps, args.level_script,
       args.record, args.demo, args.video)
+  """

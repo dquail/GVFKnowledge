@@ -94,7 +94,8 @@ texture_sets.KNOWLEDGE = {
     wall = {
         {tex = 'map/lab_games/lg_style_01_wall_green'},
         {tex = 'map/lab_games/lg_style_01_wall_green_bright'}
-    }
+    },
+    wallDecals = decals.decals,
 }
 
 texture_sets.MINESWEEPER = {
