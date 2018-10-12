@@ -30,6 +30,7 @@ import time
 #Project imports
 from GVF import *
 from BehaviorPolicy import *
+from StateRepresentation import *
 
 #Deepmind import
 import deepmind_lab
@@ -67,6 +68,8 @@ class LearningForeground:
     self.previousObs = False
     self.currentObs = False
 
+    self.stateRepresentation = StateRepresentation()
+
   def createFeatureRepresentation(self, observation, action):
     if observation == None:
       return None
@@ -85,6 +88,10 @@ class LearningForeground:
       self.lastAction = 0
       self.currentAction = 0
       self.previousObs = False
+      self.previousPhi = False
+      self.currentPhi = False
+
+      hasPreviousObs = False
 
       for step in range(numberOfSteps):
         #TODO - make this a pavlovian prediction
@@ -97,64 +104,28 @@ class LearningForeground:
         else:
           action = self.behaviorPolicy.policy(self.previousObs)
         self.currentAction = action
-        if self.currentObs:
+        if hasPreviousObs:
           self.previousObs = self.currentObs
 
         print("Action:")
         print(action)
         reward = self.env.step(action, num_steps=1)
+        #Observation, for RGBD, has 'shape': (180, 320, 4)}
+        #ie. env.observations[0][0] would return an array of 4 elements. a[R,G,B,D]
+
+        if hasPreviousObs:
+          self.previousObs = self.currentObs
+          self.previousPhi = self.currentPhi
+
+        hasPreviousObs = True
+
         self.currentObs = self.env.observations()
+
+        self.currentPhi = self.stateRepresentation.getPhi(self.currentObs)
+
+        time.sleep(0.1)
         #Learn
         self.updateGVFs()
-
-
-
-def run(length, width, height, fps, level, record, demo, video):
-  """Spins up an environment and runs the random agent."""
-  config = {
-      'fps': str(fps),
-      'width': str(width),
-      'height': str(height)
-  }
-  if record:
-    config['record'] = record
-  if demo:
-    config['demo'] = demo
-  if video:
-    config['video'] = video
-  #env = deepmind_lab.Lab(level, ['RGB_INTERLEAVED'], config=config)
-  env = deepmind_lab.Lab(level, ['RGBD'], config=config)
-
-
-  env.reset()
-
-  # Starts the random spring agent. As a simpler alternative, we could also
-  # use DiscretizedRandomAgent().
-
-  #Spring is more based on smooth physics
-  #agent = SpringAgent(env.action_spec())
-
-  #Discretized is more jarring but simpler.
-  agent = DiscretizedRandomAgent()
-
-  reward = 0
-
-  i = 0
-  for _ in six.moves.range(length):
-    if not env.is_running():
-      print('Environment stopped early')
-      env.reset()
-      agent.reset()
-    obs = env.observations()
-    #action = agent.step(reward, obs['RGB_INTERLEAVED'])
-    action = agent.step(reward, obs['RGBD'])
-    reward = env.step(action, num_steps=1)
-    i+=1
-    time.sleep(1.0)
-    print(i)
-
-  print('Finished after %i steps. Total reward received is %f'
-        % (length, agent.rewards))
 
 
 if __name__ == '__main__':

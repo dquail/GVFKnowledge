@@ -13,9 +13,8 @@ def tileCode(numTilings, vectorLength, value):
 
 class TileCoder(object):
 
-    numberOfTiles = 8
+    intervalLengthWithinTile = 8
     numberOfTilings = 8
-    numberOfActions = 2
 
     @staticmethod
     def getIndexes(numTilings, vectorLength, value):
