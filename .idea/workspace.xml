@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e9dd40-dd7b-4200-a5e0-3c68326ca81f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/.idea/GVFKnowledge.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/.idea/misc.xml" beforeDir="false" />
@@ -2287,6 +2286,7 @@
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/python/tests/utils/test_environment_decorator.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/python/tests/utils/test_environment_decorator_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/python/tiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/python/tools.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/q3map2/BSD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/q3map2/BUILD" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/q3map2/CONTRIBUTING.md" beforeDir="false" />
@@ -7617,7 +7617,6 @@
       <change beforePath="$PROJECT_DIR$/bazel-lab/third_party/rl_api/env_c_api_example_test.cc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-lab/zlib.BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/bazel-lab/zlib.BUILD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/StateRepresentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/StateRepresentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/TileCoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/TileCoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/learning_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/learning_agent.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -7652,14 +7651,14 @@
         <counts>
           <entry key="lua" value="2" />
           <entry key="md" value="13" />
-          <entry key="py" value="5880" />
+          <entry key="py" value="6060" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="13" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="5880" />
+          <entry key="Python" value="6060" />
         </counts>
       </usages-collector>
     </session>
@@ -7687,29 +7686,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="123" column="74" selection-start-line="123" selection-start-column="74" selection-end-line="123" selection-end-column="74" />
+            <state relative-caret-position="814">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
               <folding>
                 <element signature="e#794#832#0" expanded="true" />
-                <marker date="1539372072701" expanded="true" signature="2154:2318" ph="..." />
-                <marker date="1539372072701" expanded="true" signature="2339:2397" ph="..." />
+                <marker date="1539373030289" expanded="true" signature="2154:2318" ph="..." />
+                <marker date="1539373030289" expanded="true" signature="2339:2397" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="35" column="25" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="645">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
               <folding>
                 <element signature="e#64#82#0" expanded="true" />
-                <marker date="1539371962270" expanded="true" signature="807:1159" ph="..." />
-                <marker date="1539371962270" expanded="true" signature="829:834" ph="..." />
+                <marker date="1539374121627" expanded="true" signature="681:1197" ph="..." />
+                <marker date="1539374121627" expanded="true" signature="703:708" ph="..." />
               </folding>
             </state>
           </provider>
@@ -7787,8 +7786,8 @@
       <find>tileCode</find>
       <find>tiles(</find>
       <find>numberOfTiles</find>
-      <find>phi</find>
       <find>TOTAL_IMAGE_FEATURE_LENGTH</find>
+      <find>phi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -7803,13 +7802,13 @@
         <option value="$PROJECT_DIR$/python/BehaviorPolicy.py" />
         <option value="$PROJECT_DIR$/python/tools.py" />
         <option value="$PROJECT_DIR$/python/TileCoder.py" />
-        <option value="$PROJECT_DIR$/python/StateRepresentation.py" />
         <option value="$PROJECT_DIR$/python/learning_agent.py" />
+        <option value="$PROJECT_DIR$/python/StateRepresentation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2093" />
+    <option name="x" value="2183" />
     <option name="y" value="10" />
     <option name="width" value="1657" />
     <option name="height" value="936" />
@@ -7873,7 +7872,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2093" y="10" width="1657" height="936" extended-state="0" />
+    <frame x="2183" y="10" width="1657" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1872705" />
@@ -8002,26 +8001,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
+    <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="814">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
           <folding>
-            <element signature="e#64#82#0" expanded="true" />
-            <marker date="1539371962270" expanded="true" signature="807:1159" ph="..." />
-            <marker date="1539371962270" expanded="true" signature="829:834" ph="..." />
+            <element signature="e#794#832#0" expanded="true" />
+            <marker date="1539373030289" expanded="true" signature="2154:2318" ph="..." />
+            <marker date="1539373030289" expanded="true" signature="2339:2397" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
+    <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="123" column="74" selection-start-line="123" selection-start-column="74" selection-end-line="123" selection-end-column="74" />
+        <state relative-caret-position="645">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
           <folding>
-            <element signature="e#794#832#0" expanded="true" />
-            <marker date="1539372072701" expanded="true" signature="2154:2318" ph="..." />
-            <marker date="1539372072701" expanded="true" signature="2339:2397" ph="..." />
+            <element signature="e#64#82#0" expanded="true" />
+            <marker date="1539374121627" expanded="true" signature="681:1197" ph="..." />
+            <marker date="1539374121627" expanded="true" signature="703:708" ph="..." />
           </folding>
         </state>
       </provider>

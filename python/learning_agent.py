@@ -94,7 +94,7 @@ class LearningForeground:
       hasPreviousObs = False
 
       for step in range(numberOfSteps):
-        #TODO - make this a pavlovian prediction
+        #TODO - make willHitWall a pavlovian prediction
         willHitWall = False
 
         #Pavlovian control
@@ -104,11 +104,7 @@ class LearningForeground:
         else:
           action = self.behaviorPolicy.policy(self.previousObs)
         self.currentAction = action
-        if hasPreviousObs:
-          self.previousObs = self.currentObs
 
-        print("Action:")
-        print(action)
         reward = self.env.step(action, num_steps=1)
         #Observation, for RGBD, has 'shape': (180, 320, 4)}
         #ie. env.observations[0][0] would return an array of 4 elements. a[R,G,B,D]
