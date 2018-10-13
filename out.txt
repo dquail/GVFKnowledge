@@ -1,0 +1,2683 @@
+Points of interest:
+[(1, 6), (6, 5)]
+RUN NUMBER: 1 ......
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 242]
+Pixel Mid : [150 224 255 242]
+Min depth: 193
+Max depth: 255
+average depth: 246.03687825520834
+mid point depth242
+
+Pixel One : [150 224 255 242]
+Pixel Mid : [150 224 255 242]
+Min depth: 193
+Max depth: 255
+average depth: 246.03687825520834
+mid point depth242
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [  0   0   0 241]
+Pixel Mid : [  0   0   0 241]
+Min depth: 193
+Max depth: 255
+average depth: 246.06492513020834
+mid point depth241
+
+Pixel One : [  0   0   0 241]
+Pixel Mid : [  0   0   0 241]
+Min depth: 193
+Max depth: 255
+average depth: 246.06492513020834
+mid point depth241
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 241]
+Min depth: 193
+Max depth: 255
+average depth: 246.05533854166666
+mid point depth241
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 241]
+Min depth: 193
+Max depth: 255
+average depth: 246.05533854166666
+mid point depth241
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 246.00217447916665
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 246.00217447916665
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.90722005208335
+mid point depth239
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.90722005208335
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 238]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.770478515625
+mid point depth239
+
+Pixel One : [150 224 255 238]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.770478515625
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.69237630208335
+mid point depth239
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.69237630208335
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.563779296875
+mid point depth239
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.563779296875
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.39663411458332
+mid point depth239
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.39663411458332
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.22982747395832
+mid point depth239
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 245.22982747395832
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 245.53881510416667
+mid point depth240
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 245.53881510416667
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 245.28917643229167
+mid point depth240
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 245.28917643229167
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 245.02928385416666
+mid point depth240
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 245.02928385416666
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 244.71659830729166
+mid point depth240
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 244.71659830729166
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 244.34561197916668
+mid point depth240
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 244.34561197916668
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 243.91083658854166
+mid point depth240
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 243.91083658854166
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 243.39144205729167
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 243.39144205729167
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 242.78439127604167
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 242.78439127604167
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 242.06215494791667
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 242.06215494791667
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 241.20042643229166
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 241.20042643229166
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 240.16850260416666
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 240.16850260416666
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 238.920625
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 238.920625
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 237.39134440104166
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 237.39134440104166
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 235.50390625
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 235.50390625
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 233.12679036458334
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 233.12679036458334
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 230.07386393229166
+mid point depth240
+
+Pixel One : [150 224 255 240]
+Pixel Mid : [150 224 255 240]
+Min depth: 193
+Max depth: 255
+average depth: 230.07386393229166
+mid point depth240
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 226.0288671875
+mid point depth239
+
+Pixel One : [150 224 255 239]
+Pixel Mid : [150 224 255 239]
+Min depth: 193
+Max depth: 255
+average depth: 226.0288671875
+mid point depth239
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 73 102  65 236]
+Pixel Mid : [ 68  96  60 236]
+Min depth: 193
+Max depth: 255
+average depth: 220.45599283854168
+mid point depth236
+
+Pixel One : [ 73 102  65 236]
+Pixel Mid : [ 68  96  60 236]
+Min depth: 193
+Max depth: 255
+average depth: 220.45599283854168
+mid point depth236
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 81 112  73 232]
+Pixel Mid : [ 92 130  83 231]
+Min depth: 192
+Max depth: 255
+average depth: 212.28918294270832
+mid point depth231
+
+Pixel One : [ 81 112  73 232]
+Pixel Mid : [ 92 130  83 231]
+Min depth: 192
+Max depth: 255
+average depth: 212.28918294270832
+mid point depth231
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 96 132  86 224]
+Pixel Mid : [ 95 132  85 224]
+Min depth: 172
+Max depth: 255
+average depth: 199.159453125
+mid point depth224
+
+Pixel One : [ 96 132  86 224]
+Pixel Mid : [ 95 132  85 224]
+Min depth: 172
+Max depth: 255
+average depth: 199.159453125
+mid point depth224
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 93 128  84 222]
+Pixel Mid : [ 91 125  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.81365559895832
+mid point depth221
+
+Pixel One : [ 93 128  84 222]
+Pixel Mid : [ 91 125  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.81365559895832
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 90 125  81 222]
+Pixel Mid : [ 65  91  59 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80227864583333
+mid point depth221
+
+Pixel One : [ 90 125  81 222]
+Pixel Mid : [ 65  91  59 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80227864583333
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 89 124  80 222]
+Pixel Mid : [ 65  90  58 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.8028515625
+mid point depth221
+
+Pixel One : [ 89 124  80 222]
+Pixel Mid : [ 65  90  58 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.8028515625
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 63  88  56 222]
+Pixel Mid : [ 62  88  56 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80330078125
+mid point depth221
+
+Pixel One : [ 63  88  56 222]
+Pixel Mid : [ 62  88  56 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80330078125
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 93 130  83 222]
+Pixel Mid : [ 91 129  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80458658854167
+mid point depth221
+
+Pixel One : [ 93 130  83 222]
+Pixel Mid : [ 91 129  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80458658854167
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 94 131  84 222]
+Pixel Mid : [ 91 129  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.804072265625
+mid point depth221
+
+Pixel One : [ 94 131  84 222]
+Pixel Mid : [ 91 129  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.804072265625
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 94 131  84 222]
+Pixel Mid : [ 91 128  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.8059375
+mid point depth221
+
+Pixel One : [ 94 131  84 222]
+Pixel Mid : [ 91 128  81 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.8059375
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 97 134  87 222]
+Pixel Mid : [ 94 131  84 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80663736979167
+mid point depth222
+
+Pixel One : [ 97 134  87 222]
+Pixel Mid : [ 94 131  84 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80663736979167
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 96 133  86 222]
+Pixel Mid : [ 97 134  87 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80770833333332
+mid point depth222
+
+Pixel One : [ 96 133  86 222]
+Pixel Mid : [ 97 134  87 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80770833333332
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 96 133  86 222]
+Pixel Mid : [ 96 134  86 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80820638020833
+mid point depth222
+
+Pixel One : [ 96 133  86 222]
+Pixel Mid : [ 96 134  86 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80820638020833
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 95 132  85 222]
+Pixel Mid : [ 99 136  89 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80956380208335
+mid point depth222
+
+Pixel One : [ 95 132  85 222]
+Pixel Mid : [ 99 136  89 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80956380208335
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 89 126  79 222]
+Pixel Mid : [ 90 127  80 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.811015625
+mid point depth222
+
+Pixel One : [ 89 126  79 222]
+Pixel Mid : [ 90 127  80 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.811015625
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 85 121  76 222]
+Pixel Mid : [ 53  76  47 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.81155598958333
+mid point depth222
+
+Pixel One : [ 85 121  76 222]
+Pixel Mid : [ 53  76  47 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.81155598958333
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 92 127  83 222]
+Pixel Mid : [ 64  89  58 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.81125
+mid point depth222
+
+Pixel One : [ 92 127  83 222]
+Pixel Mid : [ 64  89  58 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.81125
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 86 122  77 222]
+Pixel Mid : [ 67  92  60 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.81112955729168
+mid point depth221
+
+Pixel One : [ 86 122  77 222]
+Pixel Mid : [ 67  92  60 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.81112955729168
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 87 122  78 222]
+Pixel Mid : [ 63  88  56 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.809755859375
+mid point depth221
+
+Pixel One : [ 87 122  78 222]
+Pixel Mid : [ 63  88  56 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.809755859375
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 89 124  80 222]
+Pixel Mid : [ 65  91  59 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.810703125
+mid point depth221
+
+Pixel One : [ 89 124  80 222]
+Pixel Mid : [ 65  91  59 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.810703125
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 88 123  78 222]
+Pixel Mid : [ 81 114  74 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.81004557291666
+mid point depth221
+
+Pixel One : [ 88 123  78 222]
+Pixel Mid : [ 81 114  74 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.81004557291666
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 88 123  78 222]
+Pixel Mid : [ 80 113  73 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80770833333332
+mid point depth221
+
+Pixel One : [ 88 123  78 222]
+Pixel Mid : [ 80 113  73 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80770833333332
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 90 125  80 222]
+Pixel Mid : [ 81 113  73 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80695963541666
+mid point depth221
+
+Pixel One : [ 90 125  80 222]
+Pixel Mid : [ 81 113  73 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80695963541666
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 97 134  86 222]
+Pixel Mid : [ 92 128  82 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80607747395834
+mid point depth221
+
+Pixel One : [ 97 134  86 222]
+Pixel Mid : [ 92 128  82 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80607747395834
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 97 134  86 222]
+Pixel Mid : [ 93 131  83 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80425455729167
+mid point depth221
+
+Pixel One : [ 97 134  86 222]
+Pixel Mid : [ 93 131  83 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80425455729167
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 97 134  86 222]
+Pixel Mid : [ 92 130  82 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80408854166666
+mid point depth221
+
+Pixel One : [ 97 134  86 222]
+Pixel Mid : [ 92 130  82 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80408854166666
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 93 131  83 222]
+Pixel Mid : [ 94 131  84 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80270182291667
+mid point depth221
+
+Pixel One : [ 93 131  83 222]
+Pixel Mid : [ 94 131  84 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80270182291667
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 94 131  84 222]
+Pixel Mid : [ 98 135  88 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80136393229168
+mid point depth221
+
+Pixel One : [ 94 131  84 222]
+Pixel Mid : [ 98 135  88 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80136393229168
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 98 136  88 222]
+Pixel Mid : [ 99 136  89 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80225911458334
+mid point depth221
+
+Pixel One : [ 98 136  88 222]
+Pixel Mid : [ 99 136  89 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80225911458334
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 96 133  86 222]
+Pixel Mid : [ 93 130  83 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80107747395834
+mid point depth221
+
+Pixel One : [ 96 133  86 222]
+Pixel Mid : [ 93 130  83 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.80107747395834
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 62  87  56 222]
+Pixel Mid : [ 85 120  76 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79946940104168
+mid point depth221
+
+Pixel One : [ 62  87  56 222]
+Pixel Mid : [ 85 120  76 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79946940104168
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 84 119  74 222]
+Pixel Mid : [ 75 107  67 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.800283203125
+mid point depth221
+
+Pixel One : [ 84 119  74 222]
+Pixel Mid : [ 75 107  67 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.800283203125
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 85 120  75 222]
+Pixel Mid : [ 77 109  68 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.799931640625
+mid point depth221
+
+Pixel One : [ 85 120  75 222]
+Pixel Mid : [ 77 109  68 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.799931640625
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 126  81 222]
+Pixel Mid : [ 85 116  76 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79862955729166
+mid point depth221
+
+Pixel One : [ 91 126  81 222]
+Pixel Mid : [ 85 116  76 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79862955729166
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 126  82 222]
+Pixel Mid : [ 81 113  73 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79967447916667
+mid point depth221
+
+Pixel One : [ 91 126  82 222]
+Pixel Mid : [ 81 113  73 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79967447916667
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 87 121  78 222]
+Pixel Mid : [ 82 114  74 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79972005208333
+mid point depth221
+
+Pixel One : [ 87 121  78 222]
+Pixel Mid : [ 82 114  74 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79972005208333
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 88 121  78 222]
+Pixel Mid : [ 64  91  58 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.79897135416667
+mid point depth222
+
+Pixel One : [ 88 121  78 222]
+Pixel Mid : [ 64  91  58 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.79897135416667
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 70  98  63 222]
+Pixel Mid : [ 61  88  56 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80010416666667
+mid point depth222
+
+Pixel One : [ 70  98  63 222]
+Pixel Mid : [ 61  88  56 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.80010416666667
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 93 130  83 222]
+Pixel Mid : [ 91 129  81 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.79954752604166
+mid point depth222
+
+Pixel One : [ 93 130  83 222]
+Pixel Mid : [ 91 129  81 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.79954752604166
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 97 134  87 222]
+Pixel Mid : [ 91 129  81 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.796689453125
+mid point depth222
+
+Pixel One : [ 97 134  87 222]
+Pixel Mid : [ 91 129  81 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.796689453125
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 97 135  87 222]
+Pixel Mid : [ 94 132  84 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.79546549479167
+mid point depth222
+
+Pixel One : [ 97 135  87 222]
+Pixel Mid : [ 94 132  84 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.79546549479167
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 96 134  86 222]
+Pixel Mid : [ 97 135  87 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.795302734375
+mid point depth222
+
+Pixel One : [ 96 134  86 222]
+Pixel Mid : [ 97 135  87 222]
+Min depth: 166
+Max depth: 255
+average depth: 194.795302734375
+mid point depth222
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 98 135  88 222]
+Pixel Mid : [ 96 133  86 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.793828125
+mid point depth221
+
+Pixel One : [ 98 135  88 222]
+Pixel Mid : [ 96 133  86 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.793828125
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 90 127  80 222]
+Pixel Mid : [ 95 133  85 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79169596354166
+mid point depth221
+
+Pixel One : [ 90 127  80 222]
+Pixel Mid : [ 95 133  85 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79169596354166
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 89 126  79 222]
+Pixel Mid : [ 89 127  79 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79199544270833
+mid point depth221
+
+Pixel One : [ 89 126  79 222]
+Pixel Mid : [ 89 127  79 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79199544270833
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 92 127  82 222]
+Pixel Mid : [ 78 110  70 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79105143229165
+mid point depth221
+
+Pixel One : [ 92 127  82 222]
+Pixel Mid : [ 78 110  70 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.79105143229165
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 87 122  77 222]
+Pixel Mid : [ 84 115  76 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.78824544270833
+mid point depth221
+
+Pixel One : [ 87 122  77 222]
+Pixel Mid : [ 84 115  76 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.78824544270833
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 86 121  76 222]
+Pixel Mid : [ 78 109  70 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.78858072916665
+mid point depth221
+
+Pixel One : [ 86 121  76 222]
+Pixel Mid : [ 78 109  70 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.78858072916665
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 90 125  80 222]
+Pixel Mid : [ 79 110  70 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.78719401041667
+mid point depth221
+
+Pixel One : [ 90 125  80 222]
+Pixel Mid : [ 79 110  70 221]
+Min depth: 166
+Max depth: 255
+average depth: 194.78719401041667
+mid point depth221
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 85 120  76 219]
+Pixel Mid : [ 62  88  58 219]
+Min depth: 166
+Max depth: 255
+average depth: 194.74410807291667
+mid point depth219
+
+Pixel One : [ 85 120  76 219]
+Pixel Mid : [ 62  88  58 219]
+Min depth: 166
+Max depth: 255
+average depth: 194.74410807291667
+mid point depth219
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 63  90  57 215]
+Pixel Mid : [ 80 112  72 215]
+Min depth: 166
+Max depth: 255
+average depth: 194.57025065104168
+mid point depth215
+
+Pixel One : [ 63  90  57 215]
+Pixel Mid : [ 80 112  72 215]
+Min depth: 166
+Max depth: 255
+average depth: 194.57025065104168
+mid point depth215
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 89 125  79 210]
+Pixel Mid : [ 89 125  79 210]
+Min depth: 166
+Max depth: 255
+average depth: 194.18369466145833
+mid point depth210
+
+Pixel One : [ 89 125  79 210]
+Pixel Mid : [ 89 125  79 210]
+Min depth: 166
+Max depth: 255
+average depth: 194.18369466145833
+mid point depth210
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 67  97  63 205]
+Pixel Mid : [ 68  98  63 205]
+Min depth: 166
+Max depth: 255
+average depth: 193.62060872395833
+mid point depth205
+
+Pixel One : [ 67  97  63 205]
+Pixel Mid : [ 68  98  63 205]
+Min depth: 166
+Max depth: 255
+average depth: 193.62060872395833
+mid point depth205
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 57  81  53 197]
+Pixel Mid : [ 86 122  77 197]
+Min depth: 166
+Max depth: 255
+average depth: 192.47100260416667
+mid point depth197
+
+Pixel One : [ 57  81  53 197]
+Pixel Mid : [ 86 122  77 197]
+Min depth: 166
+Max depth: 255
+average depth: 192.47100260416667
+mid point depth197
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 62  86  56 185]
+Pixel Mid : [ 69  96  62 186]
+Min depth: 166
+Max depth: 255
+average depth: 190.49114908854168
+mid point depth186
+
+Pixel One : [ 62  86  56 185]
+Pixel Mid : [ 69  96  62 186]
+Min depth: 166
+Max depth: 255
+average depth: 190.49114908854168
+mid point depth186
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 71 100  63 173]
+Pixel Mid : [ 71 100  63 173]
+Min depth: 166
+Max depth: 255
+average depth: 187.74862955729168
+mid point depth173
+
+Pixel One : [ 71 100  63 173]
+Pixel Mid : [ 71 100  63 173]
+Min depth: 166
+Max depth: 255
+average depth: 187.74862955729168
+mid point depth173
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.185830078125
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.185830078125
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.1823046875
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.1823046875
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18296223958333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18296223958333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18303059895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18303059895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18585286458332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18585286458332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18399088541668
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18399088541668
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18361002604166
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18361002604166
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18364908854167
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18364908854167
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.183447265625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.183447265625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318684895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318684895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18349283854167
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18349283854167
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18363932291666
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18363932291666
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18406901041666
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18406901041666
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18365559895832
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18365559895832
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.184365234375
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.184365234375
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18360026041665
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18360026041665
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18443684895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18443684895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.183837890625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.183837890625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18335286458333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18335286458333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18363932291666
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18363932291666
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18421549479166
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18421549479166
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18373372395834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18373372395834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18360677083334
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18360677083334
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18326171875
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18326171875
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318359375
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318359375
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18336263020834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18336263020834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18405598958333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18405598958333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18394205729166
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18394205729166
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18374348958332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18374348958332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18270182291667
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18270182291667
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.182666015625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.182666015625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18222981770833
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18222981770833
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18249348958332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18249348958332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18183919270834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18183919270834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18165364583334
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18165364583334
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18167643229165
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18167643229165
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18177734375
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18177734375
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18140625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18140625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18197265625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18197265625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18148111979167
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18148111979167
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18139973958333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18139973958333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18221354166667
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18221354166667
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.181728515625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.181728515625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.181689453125
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.181689453125
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18220052083333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18220052083333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18217122395833
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18217122395833
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.182666015625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.182666015625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318684895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318684895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18303059895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18303059895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18394205729166
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18394205729166
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.184130859375
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.184130859375
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18361002604166
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18361002604166
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318359375
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318359375
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18360026041665
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18360026041665
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18328125
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18328125
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18373372395834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18373372395834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18326822916666
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18326822916666
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18438802083332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18438802083332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18335286458333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18335286458333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18385091145834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18385091145834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18443684895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18443684895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18374348958332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18374348958332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18415364583333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18415364583333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18365559895832
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18365559895832
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18438151041667
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18438151041667
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18354166666666
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18354166666666
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18349283854167
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18349283854167
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18328125
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18328125
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318684895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18318684895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18364908854167
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18364908854167
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18361002604166
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18361002604166
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18390625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18390625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18585286458332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18585286458332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18303059895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18303059895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18269856770834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18269856770834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.1823046875
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.1823046875
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18217122395833
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18217122395833
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18177083333333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18177083333333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18191731770833
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18191731770833
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.181728515625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.181728515625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18168294270833
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18168294270833
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18143880208333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18143880208333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18148111979167
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18148111979167
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18197265625
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18197265625
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18134114583333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18134114583333
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18177734375
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18177734375
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18167643229165
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18167643229165
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18162434895834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18162434895834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18183919270834
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 90 127  80 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18183919270834
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18249348958332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18249348958332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18202473958334
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18202473958334
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18236979166667
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18236979166667
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18270182291667
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18270182291667
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18368489583332
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18368489583332
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18344075520832
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18344075520832
+mid point depth167
+
+Action: [0 0 0 1 0 0 0]
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
+Min depth: 166
+Max depth: 255
+average depth: 186.18405598958333
+mid point depth167
+
+Pixel One : [ 91 127  81 166]
+Pixel Mid : [ 91 127  81 167]
