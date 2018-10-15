@@ -35,6 +35,11 @@ from StateRepresentation import *
 # Deepmind import
 import deepmind_lab
 
+def didBumpCumulant(phi):
+  return phi[len(phi) - 1]
+
+def didBumpGamma(phi):
+  return 0
 
 class LearningForeground:
   def __init__(self, length, width, height, fps, level, record, demo, video):
@@ -57,14 +62,13 @@ class LearningForeground:
     # Set our behavior policy
     self.behaviorPolicy = BehaviorPolicy()
 
-    self.featureRepresentationLength = 100
-    alpha = 0.1
-    numberOfActiveFeatures = 5
-    # Set up our GVF for pavlovian control
-    gvf = GVF(self.featureRepresentationLength, alpha / numberOfActiveFeatures, isOffPolicy=False, name="Hit wall GVF")
-    gvf.gamma = 0
-    gvf.policy = self.behaviorPolicy
-    self.wallGVF = gvf
+    #Set up our wall gvf
+    #    def __init__(self, featureVectorLength, alpha, isOffPolicy, name = "GVF name"):
+    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.1 / NUM_IMAGE_TILINGS, isOffPolicy=True, name="WallGVF")
+
+    self.wallGVF.cumulant = didBumpCumulant
+    self.wallGVF.policy = self.behaviorPolicy.moveForwardPolicy
+    self.wallGVF.gamma = didBumpGamma
 
     # Set learning parameters
     self.previousObs = False
@@ -72,15 +76,10 @@ class LearningForeground:
 
     self.stateRepresentation = StateRepresentation()
 
-  def createFeatureRepresentation(self, observation, action):
-    if observation == None:
-      return None
-    else:
-      # TODO: tilecode the observation RGB bits.
-      return np.zeros(self.featureRepresentationLength)
 
   def updateGVFs(self):
-    gvf = self.wallGVF
+    #def learn(self, lastState, action, newState):
+    self.wallGVF.learn(lastState = self.previousPhi, action = self.currentAction, newState = self.currentPhi)
 
   def start(self, numberOfSteps=10000, numberOfRuns=1):
     for run in range(numberOfRuns):
@@ -105,7 +104,6 @@ class LearningForeground:
         else:
           action = self.behaviorPolicy.policy(self.previousObs)
 
-        print("Action: " + str(action))
         self.currentAction = action
 
         reward = self.env.step(action, num_steps=1)
@@ -117,21 +115,15 @@ class LearningForeground:
           self.previousObs = self.currentObs
           self.previousPhi = self.currentPhi
         self.currentObs = self.env.observations()
-        hasPreviousObs = True
 
-        """
-        if(step > 10):
-          print("Keys: " + str(self.currentObs.keys()))
-          time.sleep(1)
-          M = self.currentObs[OBS_KEY]
-          PLT.imshow(M)
-          PLT.show()
-        """
         self.currentPhi = self.stateRepresentation.getPhi(self.currentObs)
 
-        #time.sleep(0.1)
-        #Learn
-        self.updateGVFs()
+        if hasPreviousObs:
+          # Learn
+          self.updateGVFs()
+
+        hasPreviousObs = True
+
 
 
 

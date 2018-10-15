@@ -33,13 +33,10 @@ class BehaviorPolicy:
     return self.ACTIONS['look_left']
 
   def moveForwardPolicy(self, state):
-    self.lastAction = ACTIONS['forward']
     return self.ACTIONS['forward']
 
   def turnLeftPolicy(self, state):
     self.i = self.i + 1
-    self.lastAction = self.ACTIONS['look_left']
-
     return self.ACTIONS['look_left']
 
   def epsilonGreedyPolicy(self, state):

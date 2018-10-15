@@ -69,12 +69,23 @@ class GVF:
 
     def rho(self, action, state):
         targetAction = self.policy(state)
-        if (targetAction == action):
+        if (numpy.array_equal(targetAction, action)):
             return 1
         else:
             return 0
 
     def learn(self, lastState, action, newState):
+        print("Learning")
+        """
+        print("My weights (length = " + str(len(self.weights)) + ")")
+        print(self.weights)
+        print("Last state (length = " + str(len(lastState)) + ")")
+        print(lastState)
+        print("action:")
+        print(action)
+        print("New state (length = " + str(len(newState)) + ")")
+        print(newState)
+        """
         if self.isOffPolicy:
             self.gtdLearn(lastState, action, newState)
         else:
@@ -100,21 +111,25 @@ class GVF:
         #print("lambda: " + str(lam))
         rho = self.rho(action, lastState)
         #print("rho: " + str(rho))
-        self.eligibilityTrace = rho * (self.gammaLast * lam * self.eligibilityTrace + lastState.X)
+        self.eligibilityTrace = rho * (self.gammaLast * lam * self.eligibilityTrace + lastState)
         newStateValue = 0.0
-        if not newState.X  is None:
-            newStateValue = numpy.inner(newState.X, self.weights)
-        tdError = zNext + gammaNext * newStateValue - numpy.inner(lastState.X, self.weights)
+        if not newState  is None:
+            newStateValue = numpy.inner(newState, self.weights)
+        tdError = zNext + gammaNext * newStateValue - numpy.inner(lastState, self.weights)
 
 
         #print("tdError: " + str(tdError))
-
-        updateH = self.alphaH  * (tdError * self.eligibilityTrace - (numpy.inner(self.hWeights, lastState.X)) * lastState.X)
+        print("Selph.alphaH: " + str(self.alpha))
+        print("tdError: " + str(tdError))
+        print("Eligibility length: " + str(len(self.eligibilityTrace)))
+        print("hweight length: " + str(len(self.hWeights)))
+        print("last state length: " + str(len(lastState)))
+        updateH = self.alphaH * (tdError * self.eligibilityTrace - (numpy.inner(self.hWeights, lastState)) * lastState)
         self.hWeights = self.hWeights + updateH
 
         """
         #update Rupee
-        self.hHatWeights = self.hHatWeights + self.alphaRUPEE * (tdError * self.eligibilityTrace - (numpy.inner(self.hHatWeights, lastState.X)) * lastState.X)
+        self.hHatWeights = self.hHatWeights + self.alphaRUPEE * (tdError * self.eligibilityTrace - (numpy.inner(self.hHatWeights, lastState)) * lastState)
         #print("tao before: " + str(self.tao))
         self.taoRUPEE = (1.0 - self.betaNotRUPEE) * self.taoRUPEE + self.betaNotRUPEE
         #print("tao after: " + str(self.tao))
@@ -139,7 +154,7 @@ class GVF:
         """
         self.i = self.i + 1
 
-        upWeights = self.alpha * (tdError * self.eligibilityTrace - gammaNext * (1-lam)  * (numpy.inner(self.eligibilityTrace, self.hWeights) * newState.X))
+        upWeights = self.alpha * (tdError * self.eligibilityTrace - gammaNext * (1-lam)  * (numpy.inner(self.eligibilityTrace, self.hWeights) * newState))
         self.weights = self.weights + upWeights
 
         pred = self.prediction(lastState)
@@ -174,14 +189,14 @@ class GVF:
         #print("gammaLast: " + str(self.gammaLast))
 
         #print("lambda: " + str(lam))
-        self.eligibilityTrace = self.gammaLast * lam * self.eligibilityTrace + lastState.X
+        self.eligibilityTrace = self.gammaLast * lam * self.eligibilityTrace + lastState
 
-        tdError = zNext + gammaNext * numpy.inner(newState.X, self.weights) - numpy.inner(lastState.X, self.weights)
+        tdError = zNext + gammaNext * numpy.inner(newState, self.weights) - numpy.inner(lastState, self.weights)
 
         #print("tdError: " + str(tdError))
 
         #update Rupee
-        self.hHatWeights = self.hHatWeights + self.alphaRUPEE * (tdError * self.eligibilityTrace - (numpy.inner(self.hHatWeights, lastState.X)) * lastState.X)
+        self.hHatWeights = self.hHatWeights + self.alphaRUPEE * (tdError * self.eligibilityTrace - (numpy.inner(self.hHatWeights, lastState)) * lastState)
         #print("tao before: " + str(self.tao))
         self.taoRUPEE = (1.0 - self.betaNotRUPEE) * self.taoRUPEE + self.betaNotRUPEE
         #print("tao after: " + str(self.taoRUPEE))
@@ -213,7 +228,7 @@ class GVF:
         self.gammaLast = gammaNext
 
     def prediction(self, stateRepresentation):
-        return numpy.inner(self.weights, stateRepresentation.X)
+        return numpy.inner(self.weights, stateRepresentation)
 
     def rupee(self):
         return numpy.sqrt(numpy.absolute(numpy.inner(self.hHatWeights, self.movingtdEligErrorAverage)))
