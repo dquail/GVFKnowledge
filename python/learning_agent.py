@@ -64,7 +64,7 @@ class LearningForeground:
 
     #Set up our wall gvf
     #    def __init__(self, featureVectorLength, alpha, isOffPolicy, name = "GVF name"):
-    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.1 / NUM_IMAGE_TILINGS, isOffPolicy=True, name="WallGVF")
+    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.1 /( NUM_IMAGE_TILINGS * NUM_RANDOM_POINTS), isOffPolicy=True, name="WallGVF")
 
     self.wallGVF.cumulant = didBumpCumulant
     self.wallGVF.policy = self.behaviorPolicy.moveForwardPolicy
@@ -120,7 +120,10 @@ class LearningForeground:
 
         if hasPreviousObs:
           # Learn
+          print("Prediction before: " + str(self.wallGVF.prediction(self.previousPhi)))
           self.updateGVFs()
+          #print the prediction:
+          print("Prediction after: " + str(self.wallGVF.prediction(self.previousPhi)))
 
         hasPreviousObs = True
 

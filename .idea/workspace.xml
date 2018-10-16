@@ -7619,12 +7619,10 @@
       <change beforePath="$PROJECT_DIR$/bazel-lab/third_party/rl_api/env_c_api_example.lds" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-lab/third_party/rl_api/env_c_api_example_test.cc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-lab/zlib.BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/bazel-lab/zlib.BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/BehaviorPolicy.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BehaviorPolicy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python/GVF.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/GVF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/StateRepresentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/StateRepresentation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/learning_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/learning_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7661,44 +7659,44 @@
         <counts>
           <entry key="lua" value="2" />
           <entry key="md" value="13" />
-          <entry key="py" value="10644" />
+          <entry key="py" value="11232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="13" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="10644" />
+          <entry key="Python" value="11232" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+            <state relative-caret-position="231">
+              <caret line="66" column="98" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="98" />
               <folding>
                 <element signature="e#795#833#0" expanded="true" />
-                <marker date="1539626892368" expanded="true" signature="1230:1243" ph="..." />
-                <marker date="1539626892368" expanded="true" signature="2284:2288" ph="..." />
+                <marker date="1539658661162" expanded="true" signature="1230:1243" ph="..." />
+                <marker date="1539658661162" expanded="true" signature="2306:2310" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="16" />
               <folding>
                 <element signature="e#64#82#0" expanded="true" />
-                <marker date="1539630963664" expanded="true" signature="912:1639" ph="..." />
-                <marker date="1539630963664" expanded="true" signature="934:939" ph="..." />
-                <marker date="1539630963664" expanded="true" signature="2284:2289" ph="..." />
+                <marker date="1539658092530" expanded="true" signature="912:1639" ph="..." />
+                <marker date="1539658092530" expanded="true" signature="934:939" ph="..." />
+                <marker date="1539658092530" expanded="true" signature="2284:2289" ph="..." />
               </folding>
             </state>
           </provider>
@@ -7733,8 +7731,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/GVF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="49" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -7756,12 +7754,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>numberOfRun</find>
-      <find>StateRepre</find>
-      <find>tileCode</find>
-      <find>tiles(</find>
-      <find>numberOfTiles</find>
-      <find>TOTAL_IMAGE_FEATURE_LENGTH</find>
       <find>phi</find>
       <find>[]</find>
       <find>time</find>
@@ -7773,19 +7765,25 @@
       <find>320</find>
       <find>RGBD</find>
       <find>observation</find>
-      <find>didBump</find>
       <find>getP</find>
       <find>NUMBER_</find>
       <find>gamma</find>
       <find>createFeatu</find>
       <find>PIXEL_DISTANCE_CONSIDERED_BUMP</find>
-      <find>sleep</find>
       <find>TOTAL_FEATURE</find>
       <find>.X</find>
       <find>WallGVF</find>
+      <find>My weights</find>
       <find>print(</find>
       <find>print</find>
-      <find>My weights</find>
+      <find>.prediction</find>
+      <find>npgt</find>
+      <find>npgit</find>
+      <find>didBump</find>
+      <find>&quot;Prediction:</find>
+      <find>alphaH</find>
+      <find>sleep</find>
+      <find>alpha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -7800,15 +7798,15 @@
         <option value="$PROJECT_DIR$/python/TileCoder.py" />
         <option value="$PROJECT_DIR$/python/visualize_pixels.py" />
         <option value="$PROJECT_DIR$/python/tools.py" />
-        <option value="$PROJECT_DIR$/python/learning_agent.py" />
         <option value="$PROJECT_DIR$/python/BehaviorPolicy.py" />
-        <option value="$PROJECT_DIR$/python/GVF.py" />
         <option value="$PROJECT_DIR$/python/StateRepresentation.py" />
+        <option value="$PROJECT_DIR$/python/GVF.py" />
+        <option value="$PROJECT_DIR$/python/learning_agent.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2093" />
+    <option name="x" value="263" />
     <option name="y" value="39" />
     <option name="width" value="1657" />
     <option name="height" value="936" />
@@ -7872,7 +7870,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2093" y="39" width="1657" height="936" extended-state="0" />
+    <frame x="263" y="39" width="1657" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1872705" />
@@ -8006,37 +8004,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
+    <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        <state relative-caret-position="231">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="16" />
           <folding>
-            <element signature="e#795#833#0" expanded="true" />
-            <marker date="1539626892368" expanded="true" signature="1230:1243" ph="..." />
-            <marker date="1539626892368" expanded="true" signature="2284:2288" ph="..." />
+            <element signature="e#64#82#0" expanded="true" />
+            <marker date="1539658092530" expanded="true" signature="912:1639" ph="..." />
+            <marker date="1539658092530" expanded="true" signature="934:939" ph="..." />
+            <marker date="1539658092530" expanded="true" signature="2284:2289" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/GVF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
+    <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        <state relative-caret-position="231">
+          <caret line="66" column="98" selection-start-line="66" selection-start-column="98" selection-end-line="66" selection-end-column="98" />
           <folding>
-            <element signature="e#64#82#0" expanded="true" />
-            <marker date="1539630963664" expanded="true" signature="912:1639" ph="..." />
-            <marker date="1539630963664" expanded="true" signature="934:939" ph="..." />
-            <marker date="1539630963664" expanded="true" signature="2284:2289" ph="..." />
+            <element signature="e#795#833#0" expanded="true" />
+            <marker date="1539658661162" expanded="true" signature="1230:1243" ph="..." />
+            <marker date="1539658661162" expanded="true" signature="2306:2310" ph="..." />
           </folding>
         </state>
       </provider>

@@ -24,7 +24,7 @@ NUMBER_OF_COLOR_CHANNELS = 3 #red, blue, green
 PIXEL_FEATURE_LENGTH = np.power(NUM_IMAGE_INTERVALS, NUMBER_OF_COLOR_CHANNELS) * NUM_IMAGE_TILINGS
 DID_BUMP_FEATURE_LENGTH = 1
 TOTAL_FEATURE_LENGTH = PIXEL_FEATURE_LENGTH * NUM_RANDOM_POINTS + DID_BUMP_FEATURE_LENGTH
-PIXEL_DISTANCE_CONSIDERED_BUMP = 160 #How close an object is in front of the avatar before it is considered to "bump" into it
+PIXEL_DISTANCE_CONSIDERED_BUMP = 170 #How close an object is in front of the avatar before it is considered to "bump" into it
 # Channels
 RED_CHANNEL = 0
 GREEN_CHANNEL = 1
@@ -54,7 +54,7 @@ class StateRepresentation(object):
 
     if didBump:
       print("BUMPED!!!!!")
-      time.sleep(0.5)
+      time.sleep(1.5)
 
     return didBump
 
@@ -95,5 +95,5 @@ class StateRepresentation(object):
     didBump = self.didBump(observation)
     phi.append(int(didBump))
 
-    return npgit .array(phi)
+    return np.array(phi)
 
