@@ -109,7 +109,11 @@ class LearningForeground:
 
         self.currentAction = action
 
-        reward = self.env.step(action, num_steps=1)
+        if np.array_equal(action,self.behaviorPolicy.ACTIONS['look_left']):
+          for i in range(15):
+            reward = self.env.step(action, num_steps=1)
+        else:
+          reward = self.env.step(action, num_steps = 1)
 
         # Observation, for RGBD, has 'shape': (180, 320, 4)} ie. env.observations[0][0] would return an array of 4 elements. a[R,G,B,D]
 
