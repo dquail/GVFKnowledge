@@ -21,8 +21,8 @@ class BehaviorPolicy:
 
   def policy(self, state):
     self.i = self.i + 1
-    #TODO - check to see if we are currently facing a wall. If so, turn left. Otherwise forward
-    isFacingWall = False
+
+    isFacingWall = state[len(state) - 1] == 1 #Last bit in the feature representation represents facing the wall
     if isFacingWall:
       return self.ACTIONS['look_left']
     else:

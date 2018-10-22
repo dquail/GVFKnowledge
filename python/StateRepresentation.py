@@ -32,6 +32,8 @@ BLUE_CHANNEL = 2
 DEPTH_CHANNEL = 3
 OBS_KEY = 'RGBD_INTERLEAVED'
 
+WALL_THRESHOLD = 0.8 #If the prediction is greater than this, the pavlov agent will avert
+
 class StateRepresentation(object):
   def __init__(self):
     self.pointsOfInterest = []
@@ -58,6 +60,8 @@ class StateRepresentation(object):
 
     return didBump
 
+  def getEmptyPhi(self):
+    return np.zeros(TOTAL_FEATURE_LENGTH)
   """
   Name: getPhi
   Description: Creates the feature representation (phi) for a given observation. The representation

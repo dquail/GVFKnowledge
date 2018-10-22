@@ -88,21 +88,24 @@ class LearningForeground:
       self.lastAction = 0
       self.currentAction = 0
       self.previousObs = False
-      self.previousPhi = False
-      self.currentPhi = False
+      self.previousPhi = self.stateRepresentation.getEmptyPhi()
+      self.currentPhi = self.stateRepresentation.getEmptyPhi()
 
       hasPreviousObs = False
 
+      willHitWall = False
       for step in range(numberOfSteps):
-        # TODO - make willHitWall a pavlovian prediction
-        willHitWall = False
-
-        # Pavlovian control
+        #Pavlovian control
         action = None
         if willHitWall == True:
-          action = self.behaviorPolicy.turnLeftPolicy(self.previousObs)
+          time.sleep(3)
+          print("Predicted to hit wall")
+          action = self.behaviorPolicy.turnLeftPolicy()
         else:
-          action = self.behaviorPolicy.policy(self.previousObs)
+          if hasPreviousObs:
+            action = self.behaviorPolicy.policy(self.previousPhi)
+          else:
+            action = self.behaviorPolicy.moveForwardPolicy(self.previousPhi)
 
         self.currentAction = action
 
@@ -110,12 +113,10 @@ class LearningForeground:
 
         # Observation, for RGBD, has 'shape': (180, 320, 4)} ie. env.observations[0][0] would return an array of 4 elements. a[R,G,B,D]
 
+        self.previousObs = self.currentObs
+        self.previousPhi = self.currentPhi
 
-        if hasPreviousObs:
-          self.previousObs = self.currentObs
-          self.previousPhi = self.currentPhi
         self.currentObs = self.env.observations()
-
         self.currentPhi = self.stateRepresentation.getPhi(self.currentObs)
 
         if hasPreviousObs:
@@ -124,6 +125,8 @@ class LearningForeground:
           self.updateGVFs()
           #print the prediction:
           print("Prediction after: " + str(self.wallGVF.prediction(self.previousPhi)))
+          newPrediction = self.wallGVF.prediction(self.currentPhi)
+          willHitWall = newPrediction > WALL_THRESHOLD
 
         hasPreviousObs = True
 
