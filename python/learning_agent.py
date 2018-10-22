@@ -64,7 +64,7 @@ class LearningForeground:
 
     #Set up our wall gvf
     #    def __init__(self, featureVectorLength, alpha, isOffPolicy, name = "GVF name"):
-    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.1 /( NUM_IMAGE_TILINGS * NUM_RANDOM_POINTS), isOffPolicy=True, name="WallGVF")
+    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.2 /( NUM_IMAGE_TILINGS * NUM_RANDOM_POINTS), isOffPolicy=True, name="WallGVF")
 
     self.wallGVF.cumulant = didBumpCumulant
     self.wallGVF.policy = self.behaviorPolicy.moveForwardPolicy
@@ -100,7 +100,7 @@ class LearningForeground:
         if willHitWall == True:
           time.sleep(3)
           print("Predicted to hit wall")
-          action = self.behaviorPolicy.turnLeftPolicy()
+          action = self.behaviorPolicy.turnLeftPolicy(self.previousPhi)
         else:
           if hasPreviousObs:
             action = self.behaviorPolicy.policy(self.previousPhi)
@@ -121,12 +121,15 @@ class LearningForeground:
 
         if hasPreviousObs:
           # Learn
-          print("Prediction before: " + str(self.wallGVF.prediction(self.previousPhi)))
+          #print("Prediction before: " + str(self.wallGVF.prediction(self.previousPhi)))
           self.updateGVFs()
           #print the prediction:
-          print("Prediction after: " + str(self.wallGVF.prediction(self.previousPhi)))
+          #print("Prediction after: " + str(self.wallGVF.prediction(self.previousPhi)))
           newPrediction = self.wallGVF.prediction(self.currentPhi)
           willHitWall = newPrediction > WALL_THRESHOLD
+          #print previous prediction if at wall now
+          if (self.currentPhi[len(self.currentPhi) - 1] == 1):
+            print("Prediction: " + str(self.wallGVF.prediction(self.previousPhi)))
 
         hasPreviousObs = True
 

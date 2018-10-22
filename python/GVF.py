@@ -75,7 +75,7 @@ class GVF:
             return 0
 
     def learn(self, lastState, action, newState):
-        print("Learning")
+        #print("Learning")
         """
         print("My weights (length = " + str(len(self.weights)) + ")")
         print(self.weights)

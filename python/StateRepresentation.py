@@ -24,7 +24,7 @@ NUMBER_OF_COLOR_CHANNELS = 3 #red, blue, green
 PIXEL_FEATURE_LENGTH = np.power(NUM_IMAGE_INTERVALS, NUMBER_OF_COLOR_CHANNELS) * NUM_IMAGE_TILINGS
 DID_BUMP_FEATURE_LENGTH = 1
 TOTAL_FEATURE_LENGTH = PIXEL_FEATURE_LENGTH * NUM_RANDOM_POINTS + DID_BUMP_FEATURE_LENGTH
-PIXEL_DISTANCE_CONSIDERED_BUMP = 170 #How close an object is in front of the avatar before it is considered to "bump" into it
+PIXEL_DISTANCE_CONSIDERED_BUMP = 230 #How close an object is in front of the avatar before it is considered to "bump" into it
 # Channels
 RED_CHANNEL = 0
 GREEN_CHANNEL = 1
@@ -32,7 +32,7 @@ BLUE_CHANNEL = 2
 DEPTH_CHANNEL = 3
 OBS_KEY = 'RGBD_INTERLEAVED'
 
-WALL_THRESHOLD = 0.8 #If the prediction is greater than this, the pavlov agent will avert
+WALL_THRESHOLD = 0.2 #If the prediction is greater than this, the pavlov agent will avert
 
 class StateRepresentation(object):
   def __init__(self):
@@ -50,14 +50,18 @@ class StateRepresentation(object):
 
     didBump = False
     depths = obs[:,:, DEPTH_CHANNEL]
-    closestPixel = np.amin(depths)
+    #closestPixel = np.amin(depths)
+    closestPixel = midPix[DEPTH_CHANNEL]
+    #print("Pixel: " + str(closestPixel))
+
     if  closestPixel < PIXEL_DISTANCE_CONSIDERED_BUMP:
       didBump = True
 
+    """
     if didBump:
       print("BUMPED!!!!!")
       time.sleep(1.5)
-
+    """
     return didBump
 
   def getEmptyPhi(self):
