@@ -37,6 +37,7 @@ WALL_THRESHOLD = 0.2 #If the prediction is greater than this, the pavlov agent w
 class StateRepresentation(object):
   def __init__(self):
     self.pointsOfInterest = []
+    self.numberOfTimesBumping = 0
     self.randomYs = np.random.choice(IMAGE_HEIGHT, NUM_RANDOM_POINTS, replace=False)
     self.randomXs = np.random.choice(IMAGE_WIDTH, NUM_RANDOM_POINTS, replace=False)
 
@@ -55,12 +56,13 @@ class StateRepresentation(object):
     #print("Pixel: " + str(closestPixel))
 
     if  closestPixel < PIXEL_DISTANCE_CONSIDERED_BUMP:
+      self.numberOfTimesBumping +=1
       didBump = True
 
     """
     if didBump:
-      print("BUMPED!!!!!")
-      time.sleep(1.5)
+      print("!!!!! BUMPED " + str(self.numberOfTimesBumping) + " time !!!!!")
+      time.sleep(1.0)
     """
     return didBump
 

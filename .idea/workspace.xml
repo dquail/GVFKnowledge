@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e9dd40-dd7b-4200-a5e0-3c68326ca81f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/.idea/GVFKnowledge.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-GVFKnowledge/.idea/misc.xml" beforeDir="false" />
@@ -7618,7 +7620,10 @@
       <change beforePath="$PROJECT_DIR$/bazel-lab/third_party/rl_api/env_c_api_example.lds" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-lab/third_party/rl_api/env_c_api_example_test.cc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bazel-lab/zlib.BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/bazel-lab/zlib.BUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_scripts/levels/demos/map_generation/basic_level.lua" beforeDir="false" afterPath="$PROJECT_DIR$/game_scripts/levels/demos/map_generation/basic_level.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/BehaviorPolicy.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/BehaviorPolicy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/GVF.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/GVF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/StateRepresentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/StateRepresentation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/learning_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/learning_agent.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -7637,50 +7642,76 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="lua" value="2" />
+          <entry key="lua" value="3" />
+          <entry key="md" value="2" />
           <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="lua" value="2" />
-          <entry key="md" value="13" />
-          <entry key="py" value="12639" />
+          <entry key="lua" value="21" />
+          <entry key="md" value="1497" />
+          <entry key="py" value="13105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="13" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="12639" />
+          <entry key="Markdown" value="1497" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="13105" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+            <state relative-caret-position="381">
+              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
               <folding>
                 <element signature="e#795#833#0" expanded="true" />
-                <marker date="1540237683769" expanded="true" signature="1230:1243" ph="..." />
-                <marker date="1540237683769" expanded="true" signature="2306:2310" ph="..." />
+                <marker date="1540836098737" expanded="true" signature="1230:1243" ph="..." />
+                <marker date="1540836098737" expanded="true" signature="2307:2311" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="450">
+                <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DEEPMINDLABREADME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="585">
+                <caret line="81" selection-start-line="81" selection-end-line="81" selection-end-column="50" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -7688,14 +7719,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="544">
+              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
               <folding>
                 <element signature="e#64#82#0" expanded="true" />
-                <marker date="1540231119008" expanded="true" signature="1003:1830" ph="..." />
-                <marker date="1540231119008" expanded="true" signature="1025:1030" ph="..." />
-                <marker date="1540231119008" expanded="true" signature="1855:1900" ph="..." />
-                <marker date="1540231119008" expanded="true" signature="2542:2547" ph="..." />
+                <marker date="1540834268366" expanded="true" signature="1003:1951" ph="..." />
+                <marker date="1540834268366" expanded="true" signature="1025:1030" ph="..." />
+                <marker date="1540834268366" expanded="true" signature="1976:2021" ph="..." />
+                <marker date="1540834268366" expanded="true" signature="2663:2668" ph="..." />
               </folding>
             </state>
           </provider>
@@ -7717,12 +7748,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/BehaviorPolicy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="201">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1540237600686" expanded="true" signature="980:1045" ph="..." />
+                <marker date="1540833090143" expanded="true" signature="980:1045" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game_scripts/levels/demos/map_generation/basic_level.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
             </state>
           </provider>
         </entry>
@@ -7730,8 +7770,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/GVF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            <state relative-caret-position="236">
+              <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -7753,17 +7793,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TBD</find>
-      <find>updateGVFs</find>
-      <find>480</find>
-      <find>print(&quot;Did</find>
-      <find>.sleep</find>
-      <find>320</find>
-      <find>RGBD</find>
-      <find>observation</find>
-      <find>getP</find>
-      <find>NUMBER_</find>
-      <find>gamma</find>
       <find>createFeatu</find>
       <find>PIXEL_DISTANCE_CONSIDERED_BUMP</find>
       <find>TOTAL_FEATURE</find>
@@ -7771,18 +7800,29 @@
       <find>WallGVF</find>
       <find>My weights</find>
       <find>print(</find>
-      <find>print</find>
       <find>.prediction</find>
       <find>npgt</find>
       <find>npgit</find>
-      <find>didBump</find>
       <find>&quot;Prediction:</find>
       <find>alphaH</find>
       <find>move</find>
       <find>moveForward</find>
-      <find>alpha</find>
-      <find>sleep</find>
       <find>&quot;Learning&quot;</find>
+      <find>rho:</find>
+      <find>didBump</find>
+      <find>Predicted to</find>
+      <find>Predicted to</find>
+      <find>print</find>
+      <find>WALL_THRESH</find>
+      <find>!!</find>
+      <find>alpha</find>
+      <find>basic_level</find>
+      <find>Bumped</find>
+      <find>sleep</find>
+      <find>SIMPLE_TEXT_MAP</find>
+      <find>time.slee</find>
+      <find>hasEpiso</find>
+      <find>Pavlov</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -7791,24 +7831,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CUSTOMIZELEVEL.md" />
         <option value="$PROJECT_DIR$/game_scripts/themes/texture_sets.lua" />
         <option value="$PROJECT_DIR$/python/TileCoder.py" />
         <option value="$PROJECT_DIR$/python/visualize_pixels.py" />
         <option value="$PROJECT_DIR$/python/tools.py" />
         <option value="$PROJECT_DIR$/python/GVF.py" />
-        <option value="$PROJECT_DIR$/python/StateRepresentation.py" />
         <option value="$PROJECT_DIR$/python/BehaviorPolicy.py" />
+        <option value="$PROJECT_DIR$/python/StateRepresentation.py" />
+        <option value="$PROJECT_DIR$/game_scripts/levels/demos/map_generation/basic_level.lua" />
         <option value="$PROJECT_DIR$/python/learning_agent.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2167" />
-    <option name="y" value="91" />
-    <option name="width" value="1657" />
-    <option name="height" value="936" />
+    <option name="x" value="1971" />
+    <option name="y" value="18" />
+    <option name="width" value="1768" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -7816,7 +7857,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7832,12 +7872,39 @@
             <path>
               <item name="GVFKnowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="GVFKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="game_scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVFKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVFKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="game_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVFKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVFKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="game_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVFKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVFKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="game_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="levels" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="map_generation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GVFKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GVFKnowledge" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7869,10 +7936,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2167" y="91" width="1657" height="936" extended-state="0" />
+    <frame x="1971" y="18" width="1768" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1872705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17535816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -7914,16 +7981,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DEEPMINDLABREADME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CUSTOMIZELEVEL.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -7941,16 +7998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1455">
           <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -7986,56 +8033,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/random_agent.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/random_agent_simple.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/python/GVF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="236">
+          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
+    <entry file="file://$PROJECT_DIR$/python/BehaviorPolicy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="201">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="e#64#82#0" expanded="true" />
-            <marker date="1540231119008" expanded="true" signature="1003:1830" ph="..." />
-            <marker date="1540231119008" expanded="true" signature="1025:1030" ph="..." />
-            <marker date="1540231119008" expanded="true" signature="1855:1900" ph="..." />
-            <marker date="1540231119008" expanded="true" signature="2542:2547" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1540833090143" expanded="true" signature="980:1045" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/random_agent.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/BehaviorPolicy.py">
+    <entry file="file://$PROJECT_DIR$/python/StateRepresentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="544">
+          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1540237600686" expanded="true" signature="980:1045" ph="..." />
+            <element signature="e#64#82#0" expanded="true" />
+            <marker date="1540834268366" expanded="true" signature="1003:1951" ph="..." />
+            <marker date="1540834268366" expanded="true" signature="1025:1030" ph="..." />
+            <marker date="1540834268366" expanded="true" signature="1976:2021" ph="..." />
+            <marker date="1540834268366" expanded="true" signature="2663:2668" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_scripts/levels/demos/map_generation/basic_level.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/learning_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+        <state relative-caret-position="381">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
           <folding>
             <element signature="e#795#833#0" expanded="true" />
-            <marker date="1540237683769" expanded="true" signature="1230:1243" ph="..." />
-            <marker date="1540237683769" expanded="true" signature="2306:2310" ph="..." />
+            <marker date="1540836098737" expanded="true" signature="1230:1243" ph="..." />
+            <marker date="1540836098737" expanded="true" signature="2307:2311" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DEEPMINDLABREADME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="585">
+            <caret line="81" selection-start-line="81" selection-end-line="81" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

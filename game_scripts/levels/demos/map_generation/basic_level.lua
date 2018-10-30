@@ -47,7 +47,7 @@ local TEXT_MAP = [[
 **************
 ]]
 
-local SIMPLE_TEXT_MAP = [[
+local SIMPLE_TEXT_MAP_LARGE = [[
 **************
 *            *
 *            *
@@ -59,6 +59,26 @@ local SIMPLE_TEXT_MAP = [[
 *            *
 **************
 ]]
+
+local SIMPLE_TEXT_MAP_SMALL = [[
+****
+*  *
+*P *
+*  *
+****
+]]
+
+local SIMPLE_TEXT_MAP = [[
+************
+*          *
+*          *
+*          *
+*          *
+*       P  *
+*          *
+************
+]]
+
 
 -- Called only once at start up. Settings not recognised by DM Lab internal
 -- are forwarded through the params dictionary.
@@ -83,6 +103,10 @@ end
 -- This callback is used to create pickups with those names.
 function api:createPickup(classname)
   return pickups.defaults[classname]
+end
+
+function api:hasEpisodeFinished(timeSeconds)
+  return false
 end
 
 -- On first call we return the name of the map. On subsequent calls we return

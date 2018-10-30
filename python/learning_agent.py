@@ -64,7 +64,7 @@ class LearningForeground:
 
     #Set up our wall gvf
     #    def __init__(self, featureVectorLength, alpha, isOffPolicy, name = "GVF name"):
-    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.2 /( NUM_IMAGE_TILINGS * NUM_RANDOM_POINTS), isOffPolicy=True, name="WallGVF")
+    self.wallGVF = GVF(TOTAL_FEATURE_LENGTH, alpha = 0.10 /( NUM_IMAGE_TILINGS * NUM_RANDOM_POINTS), isOffPolicy=True, name="WallGVF")
 
     self.wallGVF.cumulant = didBumpCumulant
     self.wallGVF.policy = self.behaviorPolicy.moveForwardPolicy
@@ -83,6 +83,7 @@ class LearningForeground:
 
   def start(self, numberOfSteps=10000, numberOfRuns=1):
     for run in range(numberOfRuns):
+      bumpCount = 0
       print("RUN NUMBER: " + str(run + 1) + " ......")
       self.env.reset()
       self.lastAction = 0
@@ -96,16 +97,18 @@ class LearningForeground:
       willHitWall = False
       for step in range(numberOfSteps):
         #Pavlovian control
+        #Pavlovian control
         action = None
         if willHitWall == True:
-          time.sleep(3)
-          print("Predicted to hit wall")
-          action = self.behaviorPolicy.turnLeftPolicy(self.previousPhi)
+          #time.sleep(3)
+          print("************ Pavlov action to avoid wall *****")
+          time.sleep(2)
+          action = self.behaviorPolicy.turnLeftPolicy(self.currentPhi)
         else:
           if hasPreviousObs:
-            action = self.behaviorPolicy.policy(self.previousPhi)
+            action = self.behaviorPolicy.policy(self.currentPhi)
           else:
-            action = self.behaviorPolicy.moveForwardPolicy(self.previousPhi)
+            action = self.behaviorPolicy.moveForwardPolicy(self.currentPhi)
 
         self.currentAction = action
 
@@ -113,7 +116,7 @@ class LearningForeground:
           for i in range(15):
             reward = self.env.step(action, num_steps=1)
         else:
-          reward = self.env.step(action, num_steps = 1)
+          reward = self.env.step(action, num_steps = 15)
 
         # Observation, for RGBD, has 'shape': (180, 320, 4)} ie. env.observations[0][0] would return an array of 4 elements. a[R,G,B,D]
 
@@ -132,8 +135,17 @@ class LearningForeground:
           newPrediction = self.wallGVF.prediction(self.currentPhi)
           willHitWall = newPrediction > WALL_THRESHOLD
           #print previous prediction if at wall now
+
           if (self.currentPhi[len(self.currentPhi) - 1] == 1):
-            print("Prediction: " + str(self.wallGVF.prediction(self.previousPhi)))
+            bumpCount += 1
+            #if np.array_equal(action, self.behaviorPolicy.ACTIONS['forward']):
+              #print("=== Bumped (" + str(bumpCount) + "). Prediction was: " + str(self.wallGVF.prediction(self.previousPhi) * 4.0))
+              #time.sleep(1.0)
+          """
+          else:
+            if np.array_equal(action, self.behaviorPolicy.ACTIONS['forward']):
+              print("No bump. Prediction was: " + str(self.wallGVF.prediction(self.previousPhi)))
+          """
 
         hasPreviousObs = True
 

@@ -3,15 +3,34 @@
 
 
 ## Abstract
-This paper demonstrates building abstract knowledge directly from an agents raw, low level sensorimotor stream of data - namely video, and actions. This abstract knowledge is constructed in a layer by layer approach using a single mechanism, the General Value Function (GVF).  As such, these layers of GVFs, and GVFs themselves, form representations for higher level abstractions of the raw input. 
+This project demonstrates the ability for an AI agent to learn a prediction (the likelihood it will collide with a wall), and then change its behavior accordingly. The project uses the Deepmind Lab environment to form these predictions.
 
-This paper is a direct extension, and leans heavily on the unpublished paper by Mark Ring - “Predictive Representations of state and knowledge.” In his paper, a thought experiment involving a mobile robot equipped with a video camera and touch sensor, builds knowledge of its environment by interacting with it. Through these thought experiments, a basic level of knowledge is represented by a first layer of GVFs predicting raw sensorimotor output. From this first layer, increasing levels of abstraction are built until 12 layers have been outlined. At the highest level, knowledge such as doors and rooms are represented. 
+## Environment
+The project uses the Deepmind Lab 3D virtual environment. This repository is a direct clone of https://github.com/deepmind/lab
 
-As stated before, the proposal outlined in this document is a direct extension of Mark Rings thought experiment. By implementing layers of his thought experiment using the video output, we will demonstrate learning increasing levels of knowledge. A significant difference is that we look to the Deepmind lab 3d virtual environment to implement the thought experiment, rather than on a physical robot.
+Instructions below for getting the environment up and running (below) are borrowed from the Deepmind lab repository. Further instructions on usage can be found on that github repository.
+ 
+## Getting started on Linux
 
-## Introduction
-As humans we seem to have a certain intuition, without being told them directly, that guides our decisions. We know that blankets are soft, the sun is bright, school busses are yellow, and that it hurts to fall while running on a sidewalk. These things have been learned through our everyday experience with the world, rather than something which has been taught to us by a teacher. The power in such intuitions to facilitate higher and more abstract intuitions, and to draw upon when making decisions seems obvious. But yet, representing these bits of knowledge, and learning them, is an ongoing challenge for an AI system. We will take a predictive approach to represent this knowledge by demonstrating an agents ability to predict features of it’s low level sensorimotor stream - namely video.
+* Get [Bazel from bazel.io](https://docs.bazel.build/versions/master/install.html).
 
-It is one thing to predict features of low level sensors and claim that is knowledge. It is quite another to demonstrate more abstract knowledge such as rooms in a house, hallways, doors, or leaders of foreign countries by building up predictions from these low level sensors. This project, looks to do just that - although quite obviously limiting the scope of such knowledge to things like the presence of doors and hallways in a virtual world, rather than who the president of the United states is, in the real world. For such an AI system that builds this knowledge in a predictive way, or any AI agent, it may be desirable to limit the amount of a-prior knowledge that the system has, after all, our goal is to demonstrate the ability to learn knowledge where low level sensorimotor data is the only input. I this way, the system is akin to a baby born into the world, with no real understanding of it. Such a system must learn from raw input at first, and then using a primitive knowledge of the world, learn additional intuitions. This would facilitate lifelong learning, a powerful concept in AI. As mentioned, we look to do just that, by using the lowest level predictions to form other, more abstract predictions of the datastream. In addition, the mechanism at each level to construct and learn this knowledge will be the same (the GVF). This is in contrast to the way that most other research constructs multi level knowledge. 
+* Clone DeepMind Lab, e.g. by running
 
-Much of the work in such a project would appear to be in constructing a reinforcement learning agent architecture and algorithms to facilitate such learning. This would be true, and is at the heart of my masters thesis. I’ve completed other projects which allowed me to build such an architecture that contained several GVFs making low level predictions from a robot. There will be several novel challenges for the proposal outlined here as the experimental setup and goals are very different, but I can leverage some of the prior learnings. One of the biggest challenges for this project is how to best handle the raw video input. Handing it directly over to the algorithms without any sort of filtering or pre-processing, I am certain, will not allow the learning that I have outlined. Video filtering and processing is an area I know little about, so I will be taking this opportunity to grow my knowledge of this area of research.
+```shell
+$ git clone https://github.com/deepmind/lab
+$ cd lab
+```
+
+We created a very simple maze by customizing [`game_scripts/levels/demos/map_generation/basic_level.lua`](game_scripts/levels/demos/map_generation/basic_level.lua)
+
+This maze consists of a single room, with 4 walls, all the same color. 
+
+Given this environment, we look to train the agent to predict when the agent will collide with the wall. This prediction is made via a General value function. The function predicts the value of the bump sensor, should it choose the 'forward' action. 
+If a collision is predicted, the agent will choose to turn left. Otherwise the agent moves forward. 
+
+This pavlovian control can be observed by running the following: 
+
+```shell
+lab$ bazel run :learning_agent --define graphics=sdl -- 
+    --level_script=demos/map_generation/basic_level --length=10000 --width=640 --height=480
+```

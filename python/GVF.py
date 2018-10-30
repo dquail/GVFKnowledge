@@ -118,7 +118,7 @@ class GVF:
         tdError = zNext + gammaNext * newStateValue - numpy.inner(lastState, self.weights)
 
 
-
+        """
         if (zNext >0):
             print("Selph.alphaH: " + str(self.alphaH))
             print("tdError: " + str(tdError))
@@ -127,7 +127,7 @@ class GVF:
             print("last state length: " + str(len(lastState)))
             print("lam: " + str(lam))
             print("rho: " + str(rho))
-
+        """
         updateH = self.alphaH * (tdError * self.eligibilityTrace - (numpy.inner(self.hWeights, lastState)) * lastState)
 
         self.hWeights = self.hWeights + updateH
@@ -162,21 +162,22 @@ class GVF:
         upWeights = self.alpha * (tdError * self.eligibilityTrace - gammaNext * (1-lam)  * (numpy.inner(self.eligibilityTrace, self.hWeights) * newState))
         if (zNext >0):
             t = 0
-            print("upWeights: ")
-            print(upWeights)
+            #print("upWeights: ")
+            #print(upWeights)
             for w in upWeights:
                 if w>0:
                     t = t + 1
                     #w i 0.0025
-            print("Total updates with weight: " + str(t))
+            #print("Total updates with weight: " + str(t))
 
+            """
             print("--")
             t =0
             for w in self.weights:
                 if w> 0:
                     t = t+1
             print("Total weights with value before: " + str(t))
-
+            """
         self.weights = self.weights + upWeights
 
         pred = self.prediction(lastState)

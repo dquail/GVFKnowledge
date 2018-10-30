@@ -11,8 +11,8 @@ class BehaviorPolicy:
     self.i = 0
 
     self.ACTIONS = {
-      'look_left': np.array([-20, 0, 0, 0, 0, 0, 0], dtype=np.intc),
-      'look_right': np.array([20, 0, 0, 0, 0, 0, 0], dtype=np.intc),
+      'look_left': np.array([-50, 0, 0, 0, 0, 0, 0], dtype=np.intc),
+      'look_right': np.array([50, 0, 0, 0, 0, 0, 0], dtype=np.intc),
       'forward': np.array([0, 0, 0, 1, 0, 0, 0], dtype=np.intc),
       'backward': np.array([0, 0, 0, -1, 0, 0, 0], dtype=np.intc),
       'fire': np.array([0, 0, 0, 0, 1, 0, 0], dtype=np.intc),
